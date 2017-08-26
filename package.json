@@ -1,5 +1,5 @@
 {
-    "name": "electron_node_red",
+    "name": "electron-node-red",
     "version": "0.17.4",
     "description": "Electron Node-RED application starter",
     "main": "main.js",
