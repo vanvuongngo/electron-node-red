@@ -1,5 +1,5 @@
 {
-    "name": "electron-node-red",
+    "name": "electron_node_red",
     "version": "0.17.4",
     "description": "Electron Node-RED application starter",
     "main": "main.js",
@@ -22,8 +22,8 @@
         "build:osx": "npm run pack:osx && appdmg appdmg.json ../electron-bin/Node-RED-Electron_$npm_package_version.dmg",
         "build:linux32": "npm run pack:linux32 && fpm -s dir -t deb -f -n node-red-electron -v $npm_package_version -m conway@uk.ibm.com -a i386   -p ../electron-bin -C build/Node-RED-linux-ia32 --prefix=/opt/node-red --after-install=afterinst.sh ./",
         "build:linux64": "npm run pack:linux64 && fpm -s dir -t deb -f -n node-red-electron -v $npm_package_version -m conway@uk.ibm.com -a x86_64 -p ../electron-bin -C build/Node-RED-linux-x64  --prefix=/opt/node-red --after-install=afterinst.sh ./",
-        "build:win32": "npm run pack:win32 && ./makewin32.js",
-        "build:win64": "npm run pack:win64 && ./makewin64.js",
+        "build:win32": "npm run pack:win32 && node makewin32.js",
+        "build:win64": "npm run pack:win64 && node makewin64.js",
         "build:armv7l": "npm run pack:armv7l && fpm -s dir -t deb -f -n node-red-electron -v $npm_package_version -m conway@uk.ibm.com -a armv7l -p ../electron-bin -C build/Node-RED-linux-armv7l --prefix=/opt/node-red --after-install=afterinst.sh ./"
     },
     "repository": {
