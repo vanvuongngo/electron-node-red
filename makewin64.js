@@ -6,7 +6,7 @@ if (fs.existsSync('build/Node-RED-win32-x64')) {
     console.log("Building setup app for Windows 64bit");
     resultPromise = electronInstaller.createWindowsInstaller({
         appDirectory: 'build/Node-RED-win32-x64',
-        outputDirectory: '../electron-bin/',
+        outputDirectory: 'executable/electron-win32-x64/',
         authors: 'IBM Corp.',
         exe: 'Node-RED.exe',
         setupExe: 'Node-RED-Electron-x64.exe',
