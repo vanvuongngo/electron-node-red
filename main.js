@@ -29,7 +29,7 @@ var RED = require("node-red");
 var red_app = express();
 
 // Add a simple route for static content served from 'public'
-//red_app.use("/",express.static("public"));
+//red_app.use(express.static(__dirname +"/public"));
 
 // Create a server
 var server = http.createServer(red_app);
