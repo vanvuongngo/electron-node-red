@@ -29,7 +29,9 @@ build/*
 # https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
 node_modules
 .config.json
+.config.json.backup
 .flows.json.backup
+.flows_cred.json.backup
 .sessions.json
 *darwin-x64*
 *linux-x64*
