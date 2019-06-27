@@ -13,8 +13,10 @@ To clone and run this repository you'll need [Git](https://git-scm.com) and [Nod
 git clone ssh://git@github.com/vanvuongngo/electron-node-red.git
 # Go into the repository
 cd electron-node-red
+# Install electron
+npm install -g electron
 # Install dependencies and run the app
-npm install && npm run clean && npm start
+npm install && npm start
 ```
 
 ## TL:DR - building runtimes
