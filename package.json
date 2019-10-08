@@ -29,7 +29,7 @@
     },
     "dependencies": {
         "express": "*",
-        "node-red": "*",
+        "node-red": "^1.0.1",
         "node-red-contrib-mqtt-broker": "*",
         "node-red-contrib-play-audio": "*",
         "node-red-contrib-web-worldmap": "*",
