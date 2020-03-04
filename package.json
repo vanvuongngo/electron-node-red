@@ -28,14 +28,17 @@
         "url": "git+https://github.com/vanvuongngo/electron-node-red.git"
     },
     "dependencies": {
+        "date-fns": "*",
         "express": "*",
-        "node-red": "^1.0.1",
+        "node-red": "^1.0.4",
+        "node-red-contrib-influxdb": "*",
         "node-red-contrib-mqtt-broker": "*",
         "node-red-contrib-play-audio": "*",
         "node-red-contrib-web-worldmap": "*",
         "node-red-dashboard": "*",
         "node-red-node-base64": "*",
         "node-red-node-geofence": "*",
+        "node-red-node-mysql": "*",
         "node-red-node-random": "*",
         "node-red-node-smooth": "*"
     },

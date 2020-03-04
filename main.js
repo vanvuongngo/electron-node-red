@@ -57,7 +57,9 @@ var settings = {
     httpNodeRoot: "/",
     userDir: userdir,
     flowFile: flowfile,
-    functionGlobalContext: { }    // enables global context
+    functionGlobalContext: {
+      datefns: require("date-fns")
+    }    // enables global context
 };
 
 // Initialise the runtime with a server and settings
